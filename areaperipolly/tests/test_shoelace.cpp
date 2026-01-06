@@ -7,7 +7,15 @@
 
 /**
  * @brief Test fixture for Shoelace algorithm tests
+ *
  */
+
+#include <gtest/gtest.h>
+// be nice
+#include "areaperipoly.hpp"
+
+using namespace geometry;
+
 class ShoelaceTest : public ::testing::Test {
 protected:
   std::vector<Point2D<double>> triangle;
@@ -86,10 +94,10 @@ TEST_F(ShoelaceTest, WindingOrder) {
  * @brief Test with different floating point types
  */
 TEST_F(ShoelaceTest, DifferentFloatTypes) {
-  std::vector<Point2D<float>> triangle_f = {
-      {0.0f, 0.0f}, {4.0f, 0.0f}, {0.0f, 3.0f}};
+  std::vector<geometry::Point2D<>> triangle_f = {
+      {0.0, 0.0}, {4.0, 0.0}, {0.0, 3.0}};
 
-  auto area = calculate_area_shoelace<float>(triangle_f);
+  auto area = calculate_area_shoelace<double>(triangle_f);
   ASSERT_TRUE(area.has_value());
-  EXPECT_FLOAT_EQ(area->value, 6.0f);
+  EXPECT_DOUBLE_EQ(area->value, 6.0);
 }

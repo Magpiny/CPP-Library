@@ -1,0 +1,28 @@
+<map id="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/tests/test_basic_types.cpp" name="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/tests/test_basic_types.cpp">
+<area shape="rect" id="Node000001" title="Unit tests for basic types (Point2D, Area, Perimeter, Coordinate)." alt="" coords="203,5,402,84"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,208,85,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,83,171,134,77,200,74,196,167,130,239,86"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="181,132,285,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,83,253,121,249,117,273,86"/>
+<area shape="rect" id="Node000004" href="$areaperipoly_8hpp.html" title=" " alt="" coords="308,132,438,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="331,82,357,120,352,119,329,87"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="462,132,553,160"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="383,82,470,125,464,125,382,87"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="311,163,100,209,99,204,310,158"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="108,208,192,235"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="336,160,205,205,204,200,331,160"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="216,208,271,235"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="352,160,281,202,279,197,347,161"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="295,208,358,235"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="367,159,344,197,341,193,362,162"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="382,208,460,235"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="383,158,407,196,402,194,380,163"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="484,208,558,235"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="400,158,484,201,479,200,399,163"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="582,208,647,235"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="417,158,569,206,564,206,416,163"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="671,208,723,235"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="438,156,538,176,658,207,653,207,536,181,438,161"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="747,208,810,235"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="439,155,734,207,729,208,438,161"/>
+</map>

@@ -2,9 +2,9 @@
 -- Area and Perimeter of Polygons (AreaPeriPoly)
 
 [![C++26](https://img.shields.io/badge/C++-26-blue.svg?style=flat&logo=c%2B%2B)](https://isocpp.org/)
-[![CMake](https://img.shields.io/badge/CMake-3.30+-064F8C.svg?style=flat&logo=cmake)](https://cmake.org/)
+[![CMake](https://img.shields.io/badge/CMake-4.2+-064F8C.svg?style=flat&logo=cmake)](https://cmake.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey.svg)](https://github.com/yourorg/polygon-geometry)
+[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey.svg)](https://github.com/Magpiny/CPP-Library/tree/trunk/areaperipolly)
 
 A modern, high-performance C++26 header-only library for calculating areas and perimeters of polygons. Features strong typing, compile-time safety, and comprehensive support for both regular and irregular polygons using the Shoelace theorem.
 
@@ -48,13 +48,13 @@ This formula works for any polygon, regular or irregular, making it the perfect 
 
 You need a compiler with C++26 support:
 
-- **GCC**: 14+ (with `-std=c++26`)
-- **Clang**: 18+ (with `-std=c++26`)
+- **GCC**: 15+ (with `-std=c++26`)
+- **Clang**: 21+ (with `-std=c++26`)
 - **MSVC**: Visual Studio 2024+ (with `/std:c++latest`)
 
 ### Build Tools
 
-- **CMake**: 3.30 or later
+- **CMake**: 4.2.1 or later
 - **Git**: For cloning the repository
 
 ### Optional Dependencies

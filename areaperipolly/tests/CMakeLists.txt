@@ -76,7 +76,7 @@ add_executable(areaperipoly_tests ${UNIT_TEST_SOURCES})
 
 target_link_libraries(areaperipoly_tests
     PRIVATE
-        AreaPeriPoly::AreaPeriPoly
+        AreaPeriPoly
         GTest::gtest
         GTest::gtest_main
         test_compiler_options
@@ -115,7 +115,7 @@ add_executable(areaperipoly_benchmarks benchmark_performance.cpp)
 
 target_link_libraries(areaperipoly_benchmarks
     PRIVATE
-        AreaPeriPoly::AreaPeriPoly
+        AreaPeriPoly
         benchmark::benchmark
         benchmark::benchmark_main
         test_compiler_options

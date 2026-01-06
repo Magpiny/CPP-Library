@@ -8,6 +8,13 @@
 /**
  * @brief Test fixture for Polygon class
  */
+
+#include <gtest/gtest.h>
+// hello
+#include "areaperipoly.hpp"
+
+using namespace geometry;
+
 class PolygonClassTest : public ::testing::Test {
 protected:
   std::vector<Point2D<double>> valid_vertices;

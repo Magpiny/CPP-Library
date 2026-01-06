@@ -9,6 +9,13 @@
 /**
  * @brief Test fixture for standard shapes
  */
+
+#include <gtest/gtest.h>
+// hello
+#include "areaperipoly.hpp"
+
+using namespace geometry;
+
 class StandardShapesTest : public ::testing::Test {
 protected:
   const double pi = 3.14159265358979323846;

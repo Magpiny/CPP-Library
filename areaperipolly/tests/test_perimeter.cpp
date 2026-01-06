@@ -8,6 +8,13 @@
 /**
  * @brief Test fixture for perimeter tests
  */
+
+#include <gtest/gtest.h>
+// hello
+#include "areaperipoly.hpp"
+
+using namespace geometry;
+
 class PerimeterTest : public ::testing::Test {
 protected:
   std::vector<Point2D<double>> square;

@@ -8,6 +8,12 @@
 /**
  * @brief Test compile-time triangle area calculation
  */
+
+#include "areaperipoly.hpp"
+#include <gtest/gtest.h>
+
+using namespace geometry;
+
 TEST(ConstexprTest, CompileTimeTriangleArea) {
   constexpr std::array<Point2D<double>, 3> triangle = {
       {{0.0, 0.0}, {4.0, 0.0}, {0.0, 3.0}}};
@@ -26,10 +32,10 @@ TEST(ConstexprTest, CompileTimePerimeter) {
   constexpr std::array<Point2D<double>, 4> square = {
       {{0.0, 0.0}, {1.0, 0.0}, {1.0, 1.0}, {0.0, 1.0}}};
 
-  constexpr auto perimeter = calculate_perimeter<double>(square);
-  static_assert(perimeter.has_value());
+  constexpr auto perimeta = calculate_perimeter<double>(square);
+  static_assert(perimeta.has_value());
 
-  EXPECT_DOUBLE_EQ(perimeter->value, 4.0);
+  EXPECT_DOUBLE_EQ(perimeta->value, 4.0);
 }
 
 /**

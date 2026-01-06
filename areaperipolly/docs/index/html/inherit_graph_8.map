@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,161,106,189"/>
+<area shape="rect" id="Node000001" href="$classBasicTypesTest.html" title="Test fixture for basic type tests." alt="" coords="170,5,290,33"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="69,147,102,95,125,67,152,44,177,32,174,36,155,48,129,71,107,98,73,149"/>
+<area shape="rect" id="Node000002" href="$classEdgeCasesTest.html" title=" " alt="" coords="171,57,289,85"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="80,149,114,121,152,96,182,84,178,87,155,100,117,126,85,152"/>
+<area shape="rect" id="Node000003" href="$classPerimeterTest.html" title=" " alt="" coords="174,109,286,137"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="118,154,183,136,179,139,120,159"/>
+<area shape="rect" id="Node000004" href="$classPolygonClassTest.html" title=" " alt="" coords="163,161,297,189"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="120,173,164,174,160,177,122,178"/>
+<area shape="rect" id="Node000005" href="$classRegularPolygonTest.html" title=" " alt="" coords="155,213,304,241"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="119,191,183,212,179,214,119,197"/>
+<area shape="rect" id="Node000006" href="$classShoelaceTest.html" title=" " alt="" coords="177,265,283,293"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="83,197,117,225,155,250,183,264,178,265,152,255,114,229,82,202"/>
+<area shape="rect" id="Node000007" href="$classStandardShapesTest.html" title=" " alt="" coords="154,317,306,345"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="72,200,107,253,129,279,155,302,178,317,173,317,152,307,125,283,102,256,70,205"/>
+</map>

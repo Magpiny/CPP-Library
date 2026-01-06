@@ -8,6 +8,11 @@
 /**
  * @brief Test fixture for edge cases
  */
+#include "areaperipoly.hpp"
+#include <gtest/gtest.h>
+
+using namespace geometry;
+
 class EdgeCasesTest : public ::testing::Test {};
 
 /**

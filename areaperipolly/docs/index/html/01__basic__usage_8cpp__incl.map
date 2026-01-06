@@ -1,0 +1,28 @@
+<map id="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/examples/01_basic_usage.cpp" name="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/examples/01_basic_usage.cpp">
+<area shape="rect" id="Node000001" title="Basic usage examples of the PolygonGeometry library." alt="" coords="613,5,812,84"/>
+<area shape="rect" id="Node000002" href="$areaperipoly_8hpp.html" title=" " alt="" coords="406,132,535,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="620,84,517,128,515,123,615,85"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="747,208,809,235"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="701,83,696,122,698,141,703,158,719,180,741,200,735,198,715,184,698,161,692,142,691,122,697,87"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="713,132,787,160"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="729,82,742,118,737,116,726,87"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="812,132,891,160"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="768,82,824,123,818,122,767,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,208,90,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,157,271,180,105,210,104,204,270,175,408,156"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,208,168,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="408,158,305,182,184,210,183,205,304,176,403,159"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="192,208,255,235"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="429,160,270,209,269,204,423,160"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="278,208,358,235"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="446,160,360,203,358,198,440,161"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="382,208,460,235"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="464,159,440,197,437,192,459,161"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="484,208,558,235"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="480,158,506,196,501,194,478,163"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="582,208,647,235"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="497,158,578,201,572,200,495,163"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="671,208,723,235"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="512,158,659,207,653,207,511,163"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="533,158,735,207,729,207,532,163"/>
+</map>

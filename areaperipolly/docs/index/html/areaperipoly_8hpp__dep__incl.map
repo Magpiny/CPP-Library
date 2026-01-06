@@ -1,0 +1,41 @@
+<map id="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/include/areaperipoly.hpp" name="/home/wanj/Documents/Devs/cpp/Tutorials/CppLibs/areaperipolly/include/areaperipoly.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2050,5,2325,67"/>
+<area shape="rect" id="Node000002" href="$01__basic__usage_8cpp.html" title="Basic usage examples of the PolygonGeometry library." alt="" coords="5,115,205,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2032,38,1631,44,1107,56,840,65,592,79,379,96,217,118,205,120,204,115,217,112,378,91,591,73,840,60,1106,50,1631,39,2038,38"/>
+<area shape="rect" id="Node000003" href="$02__polygon__class_8cpp.html" title="Demonstrates usage of the Polygon class." alt="" coords="229,115,429,194"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2033,39,1674,47,1215,60,982,70,767,82,582,98,441,118,429,120,428,115,441,112,581,93,766,77,982,64,1214,54,1674,42,2038,39"/>
+<area shape="rect" id="Node000004" href="$03__different__types_8cpp.html" title="Demonstrates using different floating&#45;point types." alt="" coords="453,115,653,194"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2032,40,1717,50,1323,64,942,86,785,100,665,118,653,120,652,115,665,112,784,95,941,81,1322,59,1717,45,2038,40"/>
+<area shape="rect" id="Node000005" href="$04__error__handling_8cpp.html" title="Demonstrates error handling with std::optional." alt="" coords="677,115,877,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2032,42,1762,53,1432,68,1118,90,988,103,889,118,877,120,876,115,889,112,988,97,1117,84,1432,63,1762,48,2038,41"/>
+<area shape="rect" id="Node000006" href="$05__real__world__land__surveying_8cpp.html" title="Real&#45;world example: Land surveying and property measurement." alt="" coords="901,115,1130,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2032,39,1853,46,1630,59,1386,82,1263,98,1143,118,1131,120,1130,115,1142,112,1262,93,1385,76,1629,54,1853,41,2037,38"/>
+<area shape="rect" id="Node000007" href="$06__interactive__calculator_8cpp.html" title="Interactive polygon calculator." alt="" coords="1155,115,1354,194"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2032,41,1893,51,1725,65,1545,86,1367,118,1355,120,1354,115,1366,112,1544,81,1724,60,1892,46,2037,41"/>
+<area shape="rect" id="Node000008" href="$07__performance__comparison_8cpp.html" title="Performance comparison between different approaches." alt="" coords="1378,115,1600,194"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2038,51,1833,78,1722,96,1612,118,1600,120,1600,115,1611,112,1721,91,1833,73,2033,51"/>
+<area shape="rect" id="Node000009" href="$08__batch__processing_8cpp.html" title="Batch processing multiple polygons." alt="" coords="1624,115,1823,194"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2038,67,1836,118,1824,121,1823,116,1835,112,2033,68"/>
+<area shape="rect" id="Node000010" href="$09__compile__time__examples_8cpp.html" title="Compile&#45;time polygon calculations." alt="" coords="1848,115,2063,194"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2116,74,2034,117,2033,112,2111,75"/>
+<area shape="rect" id="Node000011" href="$10__visualization__data_8cpp.html" title="Generate data for visualization tools." alt="" coords="2088,115,2287,194"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="2190,80,2190,116,2186,113,2186,84"/>
+<area shape="rect" id="Node000012" href="$benchmark__performance_8cpp.html" title="Performance benchmarks for polygon geometry library." alt="" coords="2312,115,2536,194"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="2263,72,2347,115,2342,114,2262,77"/>
+<area shape="rect" id="Node000013" href="$test__basic__types_8cpp.html" title="Unit tests for basic types (Point2D, Area, Perimeter, Coordinate)." alt="" coords="2560,115,2759,194"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2340,64,2443,86,2548,112,2562,119,2557,118,2547,118,2442,91,2340,69"/>
+<area shape="rect" id="Node000014" href="$test__constexpr_8cpp.html" title="Tests for compile&#45;time evaluation capabilities." alt="" coords="2784,115,2983,194"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2340,47,2547,71,2660,90,2772,112,2786,118,2781,118,2771,118,2660,95,2546,77,2340,52"/>
+<area shape="rect" id="Node000015" href="$test__edge__cases_8cpp.html" title="Edge case and boundary condition tests." alt="" coords="3008,115,3207,194"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2340,39,2480,47,2645,60,2822,82,2996,112,3011,118,3005,118,2995,118,2821,87,2645,65,2480,52,2340,44"/>
+<area shape="rect" id="Node000016" href="$test__perimeter_8cpp.html" title="Unit tests for perimeter calculations." alt="" coords="3232,115,3431,194"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2340,34,2520,39,2741,51,2981,74,3102,91,3220,112,3235,118,3229,117,3219,118,3101,96,2981,79,2740,56,2520,44,2340,40"/>
+<area shape="rect" id="Node000017" href="$test__polygon__class_8cpp.html" title="Unit tests for Polygon class." alt="" coords="3456,115,3655,194"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="2340,39,2605,49,2922,64,3224,85,3349,98,3444,112,3459,118,3453,117,3443,118,3348,103,3224,90,2922,69,2604,54,2340,45"/>
+<area shape="rect" id="Node000018" href="$test__regular__polygons_8cpp.html" title="Unit tests for regular polygon calculations." alt="" coords="3680,115,3879,194"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="2340,38,2650,45,3032,59,3400,81,3552,96,3668,112,3683,118,3677,117,3667,118,3552,101,3400,87,3032,65,2649,51,2340,43"/>
+<area shape="rect" id="Node000019" href="$test__shoelace_8cpp.html" title="Unit tests for Shoelace theorem implementation." alt="" coords="3904,115,4103,194"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="2340,36,2693,42,3140,55,3576,78,3755,93,3892,112,3907,118,3901,117,3891,118,3755,99,3575,83,3140,60,2693,48,2340,42"/>
+<area shape="rect" id="Node000020" href="$test__standard__shapes_8cpp.html" title="Unit tests for standard shape calculations (rectangles, circles, triangles)." alt="" coords="4128,115,4327,194"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="2340,35,2736,39,3248,51,3509,61,3751,74,3958,91,4116,112,4131,118,4125,117,4115,118,3958,96,3750,79,3508,66,3248,56,2736,45,2340,41"/>
+</map>

@@ -1,0 +1,259 @@
+{
+  "tests": 41,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ConstexprTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "CompileTimeTriangleArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_constexpr.cpp",
+          "line": 17
+        },
+        {
+          "name": "CompileTimePerimeter",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_constexpr.cpp",
+          "line": 31
+        },
+        {
+          "name": "CompileTimeCoordinates",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_constexpr.cpp",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "name": "EdgeCasesTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "VerySmallValues",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_edge_cases.cpp",
+          "line": 21
+        },
+        {
+          "name": "VeryLargeValues",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_edge_cases.cpp",
+          "line": 33
+        },
+        {
+          "name": "CollinearPoints",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_edge_cases.cpp",
+          "line": 45
+        },
+        {
+          "name": "DuplicatePoints",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_edge_cases.cpp",
+          "line": 56
+        },
+        {
+          "name": "SelfIntersecting",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_edge_cases.cpp",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "name": "PolygonClassTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "Construction",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_polygon_class.cpp",
+          "line": 33
+        },
+        {
+          "name": "InvalidPolygon",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_polygon_class.cpp",
+          "line": 43
+        },
+        {
+          "name": "AreaCalculation",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_polygon_class.cpp",
+          "line": 53
+        },
+        {
+          "name": "PerimeterCalculation",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_polygon_class.cpp",
+          "line": 64
+        },
+        {
+          "name": "VerticesAccess",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_polygon_class.cpp",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "name": "StandardShapesTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "RectangleArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 27
+        },
+        {
+          "name": "RectanglePerimeter",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 37
+        },
+        {
+          "name": "InvalidRectangle",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 47
+        },
+        {
+          "name": "CircleArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 58
+        },
+        {
+          "name": "CircleCircumference",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 68
+        },
+        {
+          "name": "InvalidCircle",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 78
+        },
+        {
+          "name": "TriangleFromVertices",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_standard_shapes.cpp",
+          "line": 86
+        }
+      ]
+    },
+    {
+      "name": "RegularPolygonTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EquilateralTriangle",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_regular_polygons.cpp",
+          "line": 27
+        },
+        {
+          "name": "Square",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_regular_polygons.cpp",
+          "line": 41
+        },
+        {
+          "name": "Hexagon",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_regular_polygons.cpp",
+          "line": 55
+        },
+        {
+          "name": "InvalidSideCount",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_regular_polygons.cpp",
+          "line": 69
+        },
+        {
+          "name": "NegativeSideLength",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_regular_polygons.cpp",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "name": "PerimeterTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SquarePerimeter",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_perimeter.cpp",
+          "line": 35
+        },
+        {
+          "name": "EquilateralTrianglePerimeter",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_perimeter.cpp",
+          "line": 45
+        },
+        {
+          "name": "InvalidPerimeter",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_perimeter.cpp",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "name": "ShoelaceTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "TriangleArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 40
+        },
+        {
+          "name": "SquareArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 50
+        },
+        {
+          "name": "PentagonArea",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 60
+        },
+        {
+          "name": "InvalidPolygon",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 70
+        },
+        {
+          "name": "WindingOrder",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 80
+        },
+        {
+          "name": "DifferentFloatTypes",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_shoelace.cpp",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "name": "BasicTypesTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "CoordinateConstruction",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 29
+        },
+        {
+          "name": "CoordinateArithmetic",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 42
+        },
+        {
+          "name": "AreaType",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 58
+        },
+        {
+          "name": "PerimeterType",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 72
+        },
+        {
+          "name": "Point2DConstruction",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 83
+        },
+        {
+          "name": "Point2DDistance",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 96
+        },
+        {
+          "name": "TypeTraits",
+          "file": "\/home\/wanj\/Documents\/Devs\/cpp\/Tutorials\/CppLibs\/areaperipolly\/tests\/test_basic_types.cpp",
+          "line": 107
+        }
+      ]
+    }
+  ]
+}

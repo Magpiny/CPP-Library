@@ -1,0 +1,7 @@
+<map id="geometry::Point2D&lt; T &gt;" name="geometry::Point2D&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Represents a 2D point with strong typing." alt="" coords="5,246,186,274"/>
+<area shape="rect" id="Node000002" href="$structgeometry_1_1Coordinate.html" title=" " alt="" coords="14,106,177,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,165,98,246,93,245,93,168"/>
+<area shape="rect" id="Node000003" href="$classT.html" title=" " alt="" coords="76,5,115,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,46,98,106,93,105,95,51"/>
+</map>

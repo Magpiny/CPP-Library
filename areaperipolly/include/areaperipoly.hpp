@@ -70,6 +70,10 @@ template <std::floating_point T = double> struct Point2D {
   constexpr Point2D(T x_val, T y_val) noexcept
       : x(Coordinate<T>{x_val}), y(Coordinate<T>{y_val}) {}
 
+  template <std::floating_point U>
+  constexpr Point2D(const Point2D<U> &other) noexcept
+      : x(static_cast<T>(other.x.value)), y(static_cast<T>(other.y.value)) {}
+
   constexpr auto operator<=>(const Point2D &) const noexcept = default;
 
   /**
@@ -101,13 +105,13 @@ concept PolygonRange = std::ranges::random_access_range<R> && requires(R r) {
  * @return Area of the polygon, or std::nullopt if invalid
  *
  * The Shoelace theorem (also known as the surveyor's formula) calculates the
- * area of a simple polygon given the coordinates of its vertices: Area = 0.5 *
- * |Σ(x_i * y_{i+1} - x_{i+1} * y_i)|
+ * area of a simple polygon given the coordinates of its vertices:
+ * Area = 0.5 * |Σ(x_i * y_{i+1} - x_{i+1} * y_i)|
  */
 template <std::floating_point T = double, PolygonRange R>
   requires std::same_as<std::ranges::range_value_t<R>, Point2D<T>>
 [[nodiscard]] constexpr std::optional<Area<T>>
-calculate_area_shoelace(const R &vertices) noexcept {
+calculate_area_shoelace(const R &vertices) {
   const std::size_t n = std::ranges::size(vertices);
 
   if (n < 3) {

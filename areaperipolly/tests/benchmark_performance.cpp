@@ -5,9 +5,10 @@
  * @date 2026
  */
 
-#include "areaperipoly.hpp"
 #include <array>
 #include <benchmark/benchmark.h>
+// be nice
+#include "areaperipoly.hpp"
 #include <random>
 #include <vector>
 
@@ -29,7 +30,8 @@ std::vector<Point2D<double>> generate_random_polygon(size_t n,
 
   // Generate points on a circle to ensure valid polygon
   for (size_t i = 0; i < n; ++i) {
-    double angle = 2.0 * std::numbers::pi * i / n;
+    double angle = 2.0 * std::numbers::pi * static_cast<double>(i) /
+                   static_cast<double>(n);
     double radius = 100.0 + dis(gen) * 0.1; // Add slight variation
     vertices.emplace_back(radius * std::cos(angle), radius * std::sin(angle));
   }
@@ -72,7 +74,7 @@ BENCHMARK(BM_SquareArea);
  * @brief Benchmark: Polygon area with varying vertex counts
  */
 static void BM_PolygonArea_VariableSize(benchmark::State &state) {
-  auto vertices = generate_random_polygon(state.range(0));
+  auto vertices = generate_random_polygon(static_cast<size_t>(state.range(0)));
 
   for (auto _ : state) {
     auto area = calculate_area_shoelace(vertices);
@@ -91,7 +93,7 @@ BENCHMARK(BM_PolygonArea_VariableSize)
  * @brief Benchmark: Perimeter calculation with varying vertex counts
  */
 static void BM_Perimeter_VariableSize(benchmark::State &state) {
-  auto vertices = generate_random_polygon(state.range(0));
+  auto vertices = generate_random_polygon(static_cast<size_t>(state.range(0)));
 
   for (auto _ : state) {
     auto perimeter = calculate_perimeter(vertices);
@@ -110,7 +112,7 @@ BENCHMARK(BM_Perimeter_VariableSize)
  * @brief Benchmark: Regular polygon area calculation
  */
 static void BM_RegularPolygonArea(benchmark::State &state) {
-  const size_t sides = state.range(0);
+  const size_t sides = static_cast<size_t>(state.range(0));
   const double side_length = 5.0;
 
   for (auto _ : state) {
@@ -152,7 +154,7 @@ BENCHMARK(BM_CircleArea);
  * @brief Benchmark: Polygon class construction and area
  */
 static void BM_PolygonClass(benchmark::State &state) {
-  auto vertices = generate_random_polygon(state.range(0));
+  auto vertices = generate_random_polygon(static_cast<size_t>(state.range(0)));
 
   for (auto _ : state) {
     Polygon poly(vertices);
@@ -184,11 +186,12 @@ BENCHMARK(BM_PointDistance);
  * @brief Benchmark: Heavy load - Multiple polygons
  */
 static void BM_HeavyLoad_MultiplePolygons(benchmark::State &state) {
-  const size_t num_polygons = state.range(0);
+  const size_t num_polygons = static_cast<size_t>(state.range(0));
   std::vector<std::vector<Point2D<double>>> polygons;
 
   for (size_t i = 0; i < num_polygons; ++i) {
-    polygons.push_back(generate_random_polygon(10, i));
+    polygons.push_back(
+        generate_random_polygon(10, static_cast<unsigned int>(i)));
   }
 
   for (auto _ : state) {
@@ -198,7 +201,8 @@ static void BM_HeavyLoad_MultiplePolygons(benchmark::State &state) {
     }
   }
 
-  state.SetItemsProcessed(state.iterations() * num_polygons);
+  state.SetItemsProcessed(state.iterations() *
+                          static_cast<int64_t>(num_polygons));
 }
 BENCHMARK(BM_HeavyLoad_MultiplePolygons)
     ->Arg(10)
@@ -227,11 +231,10 @@ BENCHMARK(BM_LargePolygon);
  * @brief Benchmark: Float vs Double precision
  */
 static void BM_FloatPrecision(benchmark::State &state) {
-  std::vector<Point2D<float>> triangle = {
-      {0.0f, 0.0f}, {4.0f, 0.0f}, {0.0f, 3.0f}};
+  std::vector<Point2D<>> triangle = {{0.0, 0.0}, {4.0, 0.0}, {0.0, 3.0}};
 
   for (auto _ : state) {
-    auto area = calculate_area_shoelace<float>(triangle);
+    auto area = calculate_area_shoelace<double>(triangle);
     benchmark::DoNotOptimize(area);
   }
 
@@ -274,7 +277,8 @@ static void BM_BatchProcessing(benchmark::State &state) {
     }
   }
 
-  state.SetItemsProcessed(state.iterations() * batch.size());
+  state.SetItemsProcessed(state.iterations() *
+                          static_cast<int64_t>(batch.size()));
 }
 BENCHMARK(BM_BatchProcessing);
 
@@ -293,7 +297,8 @@ static void BM_ManySmallCalculations(benchmark::State &state) {
     }
   }
 
-  state.SetItemsProcessed(state.iterations() * iterations_per_loop);
+  state.SetItemsProcessed(state.iterations() *
+                          static_cast<int64_t>(iterations_per_loop));
 }
 BENCHMARK(BM_ManySmallCalculations);
 

@@ -8,6 +8,14 @@
 /**
  * @brief Test fixture for regular polygon tests
  */
+
+#include <gtest/gtest.h>
+// hello
+//
+#include "areaperipoly.hpp"
+
+using namespace geometry;
+
 class RegularPolygonTest : public ::testing::Test {
 protected:
   const double tolerance = 1e-10;

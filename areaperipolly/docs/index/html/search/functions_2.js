@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['calculate_5farea_5fshoelace_0',['calculate_area_shoelace',['../namespacegeometry.html#aaec33ff53b46ab45f9fd3e94af5d53d5',1,'geometry']]],
+  ['calculate_5fcircle_5farea_1',['calculate_circle_area',['../namespacegeometry.html#a7b1f7c078d29c7723df5bb2b5a83eda7',1,'geometry']]],
+  ['calculate_5fcircle_5fcircumference_2',['calculate_circle_circumference',['../namespacegeometry.html#a4851cfc90ab840c596e0170fe4c4ff9c',1,'geometry']]],
+  ['calculate_5fperimeter_3',['calculate_perimeter',['../namespacegeometry.html#a46442d96619729f56830923c7a670f8a',1,'geometry']]],
+  ['calculate_5frectangle_5farea_4',['calculate_rectangle_area',['../namespacegeometry.html#af6a8b918d1aa2b4777a944f31adcc7fe',1,'geometry']]],
+  ['calculate_5frectangle_5fperimeter_5',['calculate_rectangle_perimeter',['../namespacegeometry.html#aec33c61c1de164608d154357dbdd9f16',1,'geometry']]],
+  ['calculate_5fregular_5fpolygon_5farea_6',['calculate_regular_polygon_area',['../namespacegeometry.html#a7519a6dff30c0f22401b63f2ea0df659',1,'geometry']]],
+  ['calculate_5fregular_5fpolygon_5fperimeter_7',['calculate_regular_polygon_perimeter',['../namespacegeometry.html#a447aeadd68e7f19136f8e5c20285c078',1,'geometry']]],
+  ['calculate_5ftriangle_5farea_8',['calculate_triangle_area',['../namespacegeometry.html#a913125f93c802e6ff86182eabd26209f',1,'geometry']]],
+  ['calculate_5fwith_5ftype_9',['calculate_with_type',['../03__different__types_8cpp.html#a826e6ba0797cf80446b90506d685a525',1,'03_different_types.cpp']]],
+  ['circle_5fcalculator_10',['circle_calculator',['../06__interactive__calculator_8cpp.html#a03758ef0b39473f85d670ce866d6abfa',1,'06_interactive_calculator.cpp']]],
+  ['clear_5finput_11',['clear_input',['../06__interactive__calculator_8cpp.html#a5fed5e5d05ab07ac96ba3d483807da48',1,'06_interactive_calculator.cpp']]],
+  ['compile_5ftime_5fperimeter_12',['compile_time_perimeter',['../09__compile__time__examples_8cpp.html#afcf7078d8476d2c0b10bde1b4991ed1b',1,'09_compile_time_examples.cpp']]],
+  ['compile_5ftime_5fsquare_5farea_13',['compile_time_square_area',['../09__compile__time__examples_8cpp.html#a85c55ad0cb9367cc4848d9a96dc6bc2a',1,'09_compile_time_examples.cpp']]],
+  ['compile_5ftime_5ftriangle_5farea_14',['compile_time_triangle_area',['../09__compile__time__examples_8cpp.html#a8c48535ac141ffb9eb9926067b750d2a',1,'09_compile_time_examples.cpp']]],
+  ['coordinate_15',['Coordinate',['../structgeometry_1_1Coordinate.html#a812a068312da5c0773ffebbd8549cdbb',1,'geometry::Coordinate']]],
+  ['custom_5fpolygon_5fcalculator_16',['custom_polygon_calculator',['../06__interactive__calculator_8cpp.html#a1efe1bb05aeee574a7164703d6cbdd7c',1,'06_interactive_calculator.cpp']]]
+];

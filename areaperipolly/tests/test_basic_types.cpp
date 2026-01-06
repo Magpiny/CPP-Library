@@ -5,9 +5,10 @@
  * @date 2026
  */
 
-#include "areaperipoly.hpp"
 #include <concepts>
 #include <gtest/gtest.h>
+// hello be nice
+#include "areaperipoly.hpp"
 #include <type_traits>
 
 using namespace geometry;

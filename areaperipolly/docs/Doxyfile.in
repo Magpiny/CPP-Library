@@ -1,0 +1,13 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "AREAPERIPOLY"
+PROJECT_NUMBER         = "0.2.1"
+PROJECT_BRIEF          = "A Library for calculating area and perimeters of polygons"
+OUTPUT_DIRECTORY       = index/
+INPUT                  = ../include/areaperipoly.hpp ../examples ../tests
+RECURSIVE              = YES
+FILE_PATTERNS          = *.cpp *.hpp *.h
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+TIMESTAMP              = YES

@@ -57,10 +57,10 @@ option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 option(BUILD_TESTS "Build test suite" ON)
 
 # Option to build examples
-option(BUILD_EXAMPLES "Build example programs" ON)
+option(BUILD_EXAMPLES "Build example programs" OFF)
 
 # Option to enable interprocedural optimization
-option(ENABLE_IPO "Enable Interprocedural Optimization (Link Time Optimization)" OFF)
+option(ENABLE_IPO "Enable Interprocedural Optimization (Link Time Optimization)" ON)
 
 # Check for IPO support
 if(ENABLE_IPO)
@@ -78,7 +78,7 @@ endif()
 add_library(${PROJECT_NAME} INTERFACE)
 
 # Set the library's alias for easier usage
-add_library(AreaPeriPoly::AreaPeriPoly ALIAS ${PROJECT_NAME})
+add_library(AreaPeriPoly::AreaPeriPoly ALIAS AreaPeriPoly)
 
 # Specify include directories
 target_include_directories(${PROJECT_NAME} INTERFACE
