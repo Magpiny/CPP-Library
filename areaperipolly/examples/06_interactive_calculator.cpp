@@ -2,7 +2,7 @@
 /**
  * @file 06_interactive_calculator.cpp
  * @brief Interactive polygon calculator
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example provides:

@@ -1,7 +1,7 @@
 /**
  * @file 05_real_world_land_surveying.cpp
  * @brief Real-world example: Land surveying and property measurement
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example demonstrates:

@@ -1,7 +1,7 @@
 /**
  * @file 03_different_types.cpp
  * @brief Demonstrates using different floating-point types
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example shows:

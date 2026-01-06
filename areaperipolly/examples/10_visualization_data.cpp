@@ -1,7 +1,7 @@
 /**
  * @file 10_visualization_data.cpp
  * @brief Generate data for visualization tools
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example shows:

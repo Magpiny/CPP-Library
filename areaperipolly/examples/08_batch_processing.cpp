@@ -1,7 +1,7 @@
 /**
  * @file 08_batch_processing.cpp
  * @brief Batch processing multiple polygons
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example shows:

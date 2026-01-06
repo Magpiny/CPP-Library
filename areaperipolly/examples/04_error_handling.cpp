@@ -1,7 +1,7 @@
 /**
  * @file 04_error_handling.cpp
  * @brief Demonstrates error handling with std::optional
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example shows:

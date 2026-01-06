@@ -1,7 +1,7 @@
 /**
  * @file 09_compile_time_examples.cpp
  * @brief Compile-time polygon calculations
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example demonstrates:

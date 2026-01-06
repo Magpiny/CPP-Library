@@ -1,7 +1,7 @@
 /**
  * @file 07_performance_comparison.cpp
  * @brief Performance comparison between different approaches
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example demonstrates:

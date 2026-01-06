@@ -1,7 +1,7 @@
 /**
  * @file 02_polygon_class.cpp
  * @brief Demonstrates usage of the Polygon class
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example shows:

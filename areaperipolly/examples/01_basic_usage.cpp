@@ -1,7 +1,7 @@
 /**
  * @file 01_basic_usage.cpp
  * @brief Basic usage examples of the PolygonGeometry library
- * @author Examples
+ * @author Magpiny
  * @date 2026
  *
  * This example demonstrates:
